@@ -1,0 +1,44 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-container {
+  columns: 3 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-container div {
+  margin: 0.5rem -0.5rem;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+
+  background-color: #fff;
+  color: #4299e1;
+}
+
+.grid-container div:hover {
+  border-color: coral;
+}
+
+.grid-container div img {
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+}
