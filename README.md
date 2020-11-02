@@ -1,6 +1,20 @@
 # Getting Started with Create React App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc4ff555-9d80-4945-a77e-7173345441ec/deploy-status)](https://app.netlify.com/sites/uframe/deploys)  
+
 ### `Demo` - https://uframe.netlify.app/
+
+## u-Frame
+
+Full-stack app where you can share as many images as you want. Just click `upload` & you are done. Your images will be stored in `secure database`. You can access your image link after sharing that picture in app ( Free `image hosting`, you can say ). 
+
+User interface for image layout is fully `flexible`. You can upload any size of image and it will automatically adjust according to your screen size. App is completely `responsive`. Works well on small devices.
+
+#### `Frontend` - ReactJS
+
+#### `Storage` - Amazon Web Services (S3)
+
+#
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
