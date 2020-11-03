@@ -8,11 +8,20 @@
 
 Full-stack app where you can share as many images as you want. Just click `upload` & you are done. Your images will be stored in `secure database`. You can access your image link after sharing that picture in app ( Free `image hosting`, you can say ). 
 
+![name](https://i.ibb.co/jGB3DBc/Screenshot-from-2020-11-02-23-29-41.png)
+
 User interface for image layout is fully `flexible`. You can upload any size of image and it will automatically adjust according to your screen size. App is completely `responsive`. Works well on small devices.
 
 #### `Frontend` - ReactJS
 
 #### `Storage` - Amazon Web Services (S3)
+
+### .gitignore
+
+The `Keys.js` file structure -
+1. export const `ACCESS_KEY` = YOUR_AWS_ACCESS_KEY
+2. export const `SECRET_KEY` = YOUR_AWS_SECRET_KEY
+3. export const `AWS_URL` = YOUR_AWS_URL
 
 #
 
